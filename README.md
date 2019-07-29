@@ -1,5 +1,5 @@
-# LYNParser
-The one and only parser for LYN using BeauitfulSoup
+# Lowyat.Net Scrapper
+The one and only scrapper for LYN [Lowyat.net forum] using BeauitfulSoup
 Will be updating it once I've done some work
 
 # Goals
