@@ -26,8 +26,8 @@ def parseLYN(url):
     divs = soup.find_all("div",{'style':'float:left'})
    # print(divs)
     for div in divs:
-        print div.find('a').contents[0] ## Print's the Topic
-        print div.find('a')['href']
+        print (div.find('a').contents[0]) ## Print's the Topic
+        print (div.find('a')['href'])
         parseThread(div.find('a')['href'])
         break;
         ##print(div.text)
@@ -51,7 +51,7 @@ def parseThread(topicID):
     # postcolor post_text - LYN uses it to tell if it is a post or not. We will take a look at it 
     thread = soup.find_all("div",{'class':'postcolor post_text'})
     for post in thread:
-        print post.text
+        print (post.text)
 
 
  
